@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rasekgala.doctorapp.AllMessageActivity">
+
+
+    <item android:id="@+id/action_image" android:title="@string/photo" android:icon="@android:drawable/ic_menu_gallery"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/action_deleteAll" android:title="@string/del"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_refresh" android:title="@string/refresh"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_aboutApp" android:title="@string/about_app"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_news" android:title="@string/news"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
